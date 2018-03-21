@@ -1,0 +1,40 @@
+{
+  "name": "typescript-algolia-lite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhdevuk/typescript-algolia-lite.git"
+  },
+  "author": "James Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhdevuk/typescript-algolia-lite/issues"
+  },
+  "homepage": "https://github.com/jhdevuk/typescript-algolia-lite#readme",
+  "dependencies": {
+    "algoliasearch": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/algoliasearch": "^3.24.9",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-hash": "^4.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-tap": "^1.0.1",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.7.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-named": "^1.1.0",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack-manifest-plugin": "^1.3.2",
+    "webpack-stream": "^4.0.0",
+    "webpack": "^3.8.1"
+  }
+}

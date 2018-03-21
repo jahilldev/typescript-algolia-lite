@@ -1,0 +1,29 @@
+{
+   "compilerOptions": {
+      "baseUrl": "./src",
+      "outDir": "./dist",
+      "noImplicitAny": true,
+      "noEmitOnError": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "target": "es5",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "inlineSourceMap": false,
+      "inlineSources": false,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "lib": [
+         "dom",
+         "es5",
+         "es6",
+         "es7"
+      ]
+   },
+   "exclude": [
+      "node_modules",
+      "Content/static/**",
+      "Content/tests/**"
+   ]
+}
