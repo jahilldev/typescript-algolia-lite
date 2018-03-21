@@ -7,4 +7,4 @@ import algolia from 'algoliasearch/lite';
  *
  * -------------------------------- */
 
-const client = algolia('', 23123);
+const client = algolia('test', 'test');
